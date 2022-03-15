@@ -1,0 +1,312 @@
+@media all and (max-width: 1024px) {
+/* ---------- Page Lesson -----------------
+---------------------------------------- */
+/* Page Lesson : Learn */
+#p-lesson .lesson__learn .learn__lists li {
+  width: 45%;
+  height: 280px;
+}
+
+
+}
+
+
+
+
+/* 768 */
+@media all and (max-width: 768px){
+/* ---------- Page Location ---------------
+---------------------------------------- */
+/* intro */
+#p-location .location__intro .section--bg {
+  padding-top: 65%;
+}
+/* about-location */
+#p-location .location__about .containerBox {
+  flex-direction: column;
+}
+#p-location .location__about .containerBox .loc__about__desc {
+  width: 100%;
+  text-align: center;
+}
+#p-location .location__about .containerBox .loc__about__img {
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+}
+/* book */
+#p-location .location__book .section--bg {
+  padding-top: 65%;
+}
+
+/* ---------- Page Team -------------------
+---------------------------------------- */
+/* intro */
+#p-team .section--bg {
+  padding-top: 55%;
+}
+/* crew */
+#p-team .team__crew .team__crew__lists > li {
+  width: 40%;
+  padding-top: 55%;
+}
+/* contact us */
+#p-team .team__contact {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* ---------- Page About -------------------
+---------------------------------------- */
+/* intro */
+#p-about .about__intro .section--bg {
+  padding-top: 65%;
+}
+/* Page About : history */
+#p-about .about__history .font {
+  width: 90%;
+}
+/* Page About us : School  */
+#p-about .about__school .containerBox {
+  flex-direction: column;
+}
+#p-about .about__school .containerBox .textBox {
+  width: 90%;
+  margin-bottom: 50px;
+}
+#p-about .about__school .containerBox ul {
+  width: 100%;
+}
+/* about link to team */
+#p-about .about__link .section--bg {
+  padding-top: 80vh;
+}
+
+/* ---------- Page Lesson -----------------
+---------------------------------------- */
+/* Intro , special price bg padding-top*/
+#p-lesson .lesson__intro .section--bg,
+#p-lesson .lesson__spcprice .section--bg {
+  padding-top: 65%;
+}
+#p-lesson .lesson__intro .section--bg .title .font {
+  width: 90%;
+}
+/* lesson Category - mansonry grid */
+#p-lesson .lesson__cat .title .font-sm {
+  width: 90%;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid {
+  width: 48%;
+}
+/* Partnership */
+#p-lesson .lesson__ptnship .partner__lists li {
+  width: 50px;
+  height: 50px;
+}
+/* Learn with us */
+#p-lesson .lesson__learn .title .font {
+  width: 90%;
+}
+
+/* ---------- Page Rental -----------------
+---------------------------------------- */
+/* Intro */
+#p-rental .rental__intro .section--bg {
+  padding-top: 65%;
+}
+/* board lists - price */
+#p-rental .rental__boards .board__lists > li,
+#p-rental .rental__boards .board__lists > li:nth-child(even) {
+  flex-direction: column;
+}
+#p-rental .rental__boards .board__lists > li .imageBox {
+  width: 100%;
+  margin-bottom: 50px;
+  padding-top: 70%;
+}
+#p-rental .rental__boards .board__lists > li .description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#p-rental .rental__boards .board__lists > li .description .title-md,
+#p-rental .rental__boards .board__lists > li .description .title-sm,
+#p-rental .rental__boards .board__lists > li .description .font {
+  text-align: center;
+}
+
+/* Page rental : long term special price */
+#p-rental .rental__longterm .section--bg {
+  padding-top: 65%;
+}
+
+
+/* ---------- Page Cafe & Bar -------------
+---------------------------------------- */
+/* Intro */
+#p-cafe .cafe__intro {
+  padding-top: 65%;
+}
+/* Description, Menu */
+#p-cafe .cafe__desc .title .font,
+#p-cafe .cafe__menu .menu-title .font-sm,
+#p-cafe .cafe__menu .menubox .menu__lists ul,
+#p-cafe .cafe__menu .menubox .menu__lists .notice {
+  width: 95%;
+}
+/* Menu */
+#p-cafe .cafe__menu .menubox .menu__lists hr {
+  width: 300px;
+}
+/* event coupon download */
+#p-cafe .cafe__event .section--bg {
+  padding-top: 75%;
+}
+#p-cafe .cafe__event .title p {
+  width: 95%;
+}
+
+/* ---------- Page Contact ----------------
+---------------------------------------- */
+#p-contact .containerBox {
+  padding: 0 10px;
+  flex-direction: column;
+}
+#p-contact .containerBox .contact__bg {
+  width: 100%;
+  padding-top: 70%;
+}
+
+#p-contact .containerBox .contact__form {
+  width: 100%;
+  margin-top: 80px;
+}
+
+}
+
+
+
+
+
+/* 540 */
+@media all and (max-width:540px)  {
+/* ---------- Page Location ---------------
+---------------------------------------- */
+/* intro */
+#p-location .location__intro .section--bg {
+  padding-top: 80vh;
+}
+#p-location .location__intro .title {
+  text-align: center;
+  align-items: center;
+}
+#p-location .location__intro .title .font {
+  width: 100%;
+}
+/* map */
+#p-location .location__map .title .font-sm {
+  width: 90%;
+}
+#p-location .location__map .map__desc .map__desc__lists li {
+  flex-direction: column;
+  text-align: center;
+}
+#p-location .location__map .map__desc .map__desc__lists li div.font {
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+/* book */
+#p-location .location__book .section--bg {
+  padding-top: 80vh;
+}
+
+
+/* ---------- Page Team -------------------
+---------------------------------------- */
+/* intro */
+#p-team .section--bg {
+  padding-top: 75%;
+}
+/* crew */
+#p-team .team__crew .title .font {
+  width: 100%;
+}
+#p-team .team__crew .team__crew__lists > li {
+  width: 70%;
+  padding-top: 85%;
+}
+/* contact us */
+#p-team .team__contact {
+  width: 90%;
+}
+
+
+/* ---------- Page About ---------------
+---------------------------------------- */
+/* intro */
+#p-about .about__intro .section--bg {
+  padding-top: 80vh;
+}
+#p-about .about__intro .title {
+  text-align: center;
+  align-items: center;
+}
+#p-about .about__intro .title .font {
+  width: 100%;
+}
+
+
+/* ---------- Page Lesson -----------------
+---------------------------------------- */
+/* Intro , special price bg padding-top*/
+#p-lesson .lesson__intro .section--bg,
+#p-lesson .lesson__spcprice .section--bg {
+  padding-top: 80vh;
+}
+/* lesson Category - mansonry grid */
+#p-lesson .lesson__cat .cat__lists .cat-grid {
+  width: 98%;
+}
+/* Learn with us */
+#p-lesson .lesson__learn .learn__lists li {
+  width: 95%;
+  height: 250px;
+}
+
+
+/* ---------- Page Rental -----------------
+---------------------------------------- */
+/* Intro */
+#p-rental .rental__intro .section--bg {
+  padding-top: 80vh;
+}
+/* Page rental : long term special price */
+#p-rental .rental__longterm .section--bg {
+  padding-top: 80vh;
+}
+
+/* ---------- Page Cafe & Bar -------------
+---------------------------------------- */
+/* Intro */
+#p-cafe .cafe__intro {
+  padding-top: 75%;
+}
+/* Menu */
+#p-cafe .cafe__menu .menubox .menu__lists hr {
+  width: 200px;
+}
+/* event coupon download */
+#p-cafe .cafe__event .section--bg {
+  padding-top: 80vh;
+}
+
+
+/* ---------- Page Contact ----------------
+---------------------------------------- */
+#p-contact .containerBox .contact__form .title .title-lg {
+  font-size: 2.0em;
+}
+}

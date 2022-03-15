@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Angie_layout_04</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+  <meta name="author" content="Angie_An" />
+  <meta name="Author-Date" content="2022" />
+  <meta name="Keywords" content="" />
+  <meta name="Robots" content="index,follow" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/3d9979192f.js" crossorigin="anonymous"></script>
+
+
+  <!-- js -->
+  <script>
+    window.MSInputMethodContext && document.documentMode && document.write('<script src="https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.1.0/ie11CustomProperties.min.js"><\/script>');
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/page.js"></script>
+  <script src="js/grid.js"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/page.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/page-responsive.css">
+
+
+</head>
+
+<body>
+  <!-- Skip -->
+  <a href="#main" class="skip_to_content">본문 내용으로 바로가기</a>
+  <div id="wrap">
+    <!-- Mobile Navigation -->
+    <div id="mobile">
+      <div class="mobile--nav">
+        <!-- logo -->
+        <a href="http://an04.kosample.com/" class="logo">
+          <img src="images/logo.png" alt="logo image">
+        </a>
+        <nav class="nav">
+          <ul class="nav__lists">
+            <li class="menu font"><a href="http://an04.kosample.com/">Home</a></li>
+            <li class="menu font">
+              <a href="#">About<i class="fa-solid fa-angle-down"></i></a>
+              <ul class="sub-menu">
+                <li class="font-sm"><a href="page-about.html">About Us</a></li>
+                <li class="font-sm"><a href="page-location.html">Location</a></li>
+                <li class="font-sm"><a href="page-crew.html">Our Team</a></li>
+              </ul>
+            </li>
+            <li class="menu font">
+              <a href="#">Surf School<i class="fa-solid fa-angle-down"></i></a>
+              <ul class="sub-menu sub2">
+                <li class="font-sm"><a href="page-lesson.html">Lessons</a></li>
+                <li class="font-sm"><a href="page-rental.html">Reantal</a></li>
+                <li class="font-sm"><a href="page-camp.html">Camp</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- aside menu -->
+        <aside class="aside">
+          <ul class="aside__lists">
+            <li class="menu font"><a href="page-cafebar.html">Cafe&Bar</a></li>
+            <li class="menu font"><a href="#">Instagram</a></li>
+            <li class="menu font"><a href="page-contact.html">Contact</a></li>
+          </ul>
+        </aside>
+        <!-- close button -->
+        <div class="closeBtn">
+          <div class="btnBox">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+    <header id="header">
+      <div class="containerBox">
+        <!-- main nav -->
+        <nav class="nav">
+          <ul class="nav__lists">
+            <li class="menu font"><a href="http://an04.kosample.com/">Home</a></li>
+            <li class="menu font">
+              <a href="#">About<i class="fa-solid fa-angle-down"></i></a>
+              <ul class="sub-menu">
+                <li class="font-sm"><a href="page-about.html">About Us</a></li>
+                <li class="font-sm"><a href="page-location.html">Location</a></li>
+                <li class="font-sm"><a href="page-crew.html">Our Team</a></li>
+              </ul>
+            </li>
+            <li class="menu font">
+              <a href="#">Surf School<i class="fa-solid fa-angle-down"></i></a>
+              <ul class="sub-menu sub2">
+                <li class="font-sm"><a href="page-lesson.html">Lessons</a></li>
+                <li class="font-sm"><a href="page-rental.html">Reantal</a></li>
+                <li class="font-sm"><a href="page-camp.html">Camp</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <!-- logo -->
+        <a href="http://an04.kosample.com/" class="logo">
+          <img src="images/logo.png" alt="logo image">
+        </a>
+
+        <!-- aside menu -->
+        <aside class="aside">
+          <ul class="aside__lists">
+            <li class="menu font"><a href="page-cafebar.html">Cafe&Bar</a></li>
+            <li class="menu font"><a href="#">Instagram</a></li>
+            <li class="menu font"><a href="page-contact.html">Contact</a></li>
+          </ul>
+        </aside>
+
+        <!-- toggle box -->
+        <div class="toggleBox">
+          <!-- fontawesome -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" fill="#112319">
+            <path
+              d="M549.8 237.5c-31.23-5.719-46.84-20.06-47.13-20.31C490.4 205 470.3 205.1 457.7 216.8c-1 .9375-25.14 23-73.73 23s-72.73-22.06-73.38-22.62C298.4 204.9 278.3 205.1 265.7 216.8c-1 .9375-25.14 23-73.73 23S119.3 217.8 118.6 217.2C106.4 204.9 86.35 205 73.74 216.9C73.09 217.4 57.48 231.8 26.24 237.5c-17.38 3.188-28.89 19.84-25.72 37.22c3.188 17.38 19.78 29.09 37.25 25.72C63.1 295.8 82.49 287.1 95.96 279.2c19.5 11.53 51.47 24.68 96.04 24.68c44.55 0 76.49-13.12 96-24.65c19.52 11.53 51.45 24.59 96 24.59c44.58 0 76.55-13.09 96.05-24.62c13.47 7.938 32.86 16.62 58.19 21.25c17.56 3.375 34.06-8.344 37.25-25.72C578.7 257.4 567.2 240.7 549.8 237.5zM549.8 381.7c-31.23-5.719-46.84-20.06-47.13-20.31c-12.22-12.19-32.31-12.12-44.91-.375C456.7 361.9 432.6 384 384 384s-72.73-22.06-73.38-22.62c-12.22-12.25-32.3-12.12-44.89-.375C264.7 361.9 240.6 384 192 384s-72.73-22.06-73.38-22.62c-12.22-12.25-32.28-12.16-44.89-.3438c-.6562 .5938-16.27 14.94-47.5 20.66c-17.38 3.188-28.89 19.84-25.72 37.22C3.713 436.3 20.31 448 37.78 444.6C63.1 440 82.49 431.3 95.96 423.4c19.5 11.53 51.51 24.62 96.08 24.62c44.55 0 76.45-13.06 95.96-24.59C307.5 434.9 339.5 448 384.1 448c44.58 0 76.5-13.09 95.1-24.62c13.47 7.938 32.86 16.62 58.19 21.25C555.8 448 572.3 436.3 575.5 418.9C578.7 401.5 567.2 384.9 549.8 381.7zM37.78 156.4c25.33-4.625 44.72-13.31 58.19-21.25c19.5 11.53 51.47 24.68 96.04 24.68c44.55 0 76.49-13.12 96-24.65c19.52 11.53 51.45 24.59 96 24.59c44.58 0 76.55-13.09 96.05-24.62c13.47 7.938 32.86 16.62 58.19 21.25c17.56 3.375 34.06-8.344 37.25-25.72c3.172-17.38-8.344-34.03-25.72-37.22c-31.23-5.719-46.84-20.06-47.13-20.31c-12.22-12.19-32.31-12.12-44.91-.375c-1 .9375-25.14 23-73.73 23s-72.73-22.06-73.38-22.62c-12.22-12.25-32.3-12.12-44.89-.375c-1 .9375-25.14 23-73.73 23S119.3 73.76 118.6 73.2C106.4 60.95 86.35 61.04 73.74 72.85C73.09 73.45 57.48 87.79 26.24 93.51c-17.38 3.188-28.89 19.84-25.72 37.22C3.713 148.1 20.31 159.8 37.78 156.4z" />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+      <div class="main-wrap">
+        <div id="p-rental">
+          <!-- Page Rental : intro -->
+          <section class="rental__intro section">
+            <div class="section--bg">
+              <div class="title">
+                <h2 class="title-lg">available custom board</h2>
+                <p class="font">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, recusandae.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Page Rental : board lists -->
+          <section class="rental__boards section">
+            <div class="containerBox">
+              <div class="title">
+                <h2 class="title-md">our price table</h2>
+              </div>
+              <ul class="board__lists">
+                <li>
+                  <div class="imageBox">
+                    <img src="images/page/rental/board01.png" alt="board img">
+                  </div>
+                  <div class="description">
+                    <h3 class="title-md">soft board pkg</h3>
+                    <h4 class="title-sm">$00.00</h4>
+                    <p class="font">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Iste aliquid doloribus nostrum ea
+                      expedita, modi voluptatem corrupti delectus ad qui
+                      et sunt consequatur deserunt sequi libero
+                      tenetur dolores obcaecati beatae.
+                    </p>
+                    <ul>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Include wetsuit</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Free shower & cup of coffee</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>et sunt consequatur deserunt sequi libero</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="imageBox">
+                    <img src="images/page/rental/board02.png" alt="board img">
+                  </div>
+                  <div class="description">
+                    <h3 class="title-md">epoxy board pkg</h3>
+                    <h4 class="title-sm">$00.00</h4>
+                    <p class="font">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Iste aliquid doloribus nostrum ea
+                      expedita, modi voluptatem corrupti delectus ad qui
+                      et sunt consequatur deserunt sequi libero
+                      tenetur dolores obcaecati beatae.
+                    </p>
+                    <ul>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>tenetur dolores obcaecati beatae.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>et sunt consequatur deserunt sequi libero</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="imageBox">
+                    <img src="images/page/rental/board01.png" alt="board img">
+                  </div>
+                  <div class="description">
+                    <h3 class="title-md">paddle board pkg</h3>
+                    <h4 class="title-sm">$00.00</h4>
+                    <p class="font">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Iste aliquid doloribus nostrum ea
+                      expedita, modi voluptatem corrupti delectus ad qui
+                      et sunt consequatur deserunt sequi libero
+                      tenetur dolores obcaecati beatae.
+                    </p>
+                    <ul>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>tenetur dolores obcaecati beatae.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>et sunt consequatur deserunt sequi libero</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="imageBox">
+                    <img src="images/page/rental/board02.png" alt="board img">
+                  </div>
+                  <div class="description">
+                    <h3 class="title-md">surf board</h3>
+                    <h4 class="title-sm">from $00.00~</h4>
+                    <p class="font">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Iste aliquid doloribus nostrum ea
+                      expedita, modi voluptatem corrupti delectus ad qui
+                      et sunt consequatur deserunt sequi libero
+                      tenetur dolores obcaecati beatae.
+                    </p>
+                    <ul>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>tenetur dolores obcaecati beatae.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>et sunt consequatur deserunt sequi libero</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="imageBox">
+                    <img src="images/page/rental/board01.png" alt="board img">
+                  </div>
+                  <div class="description">
+                    <h3 class="title-md">wetsuit & accessory</h3>
+                    <h4 class="title-sm">for summer $00.00</h4>
+                    <h4 class="title-sm">for winter $00.00</h4>
+                    <h4 class="title-sm">accessory $00.00</h4>
+                    <p class="font">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Iste aliquid doloribus nostrum ea
+                      expedita, modi voluptatem corrupti delectus ad qui
+                      et sunt consequatur deserunt sequi libero
+                      tenetur dolores obcaecati beatae.
+                    </p>
+                    <ul>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>tenetur dolores obcaecati beatae.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                      </li>
+                      <li class="font-sm">
+                        <i class="fa-solid fa-check-double"></i>
+                        <span>et sunt consequatur deserunt sequi libero</span>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Page Rental : long term special price -->
+          <section class="rental__longterm section">
+            <div class="section--bg">
+              <div class="title">
+                <h4 class="title-lg">for special price</h4>
+                <ul>
+                  <li>
+                    <h5 class="title-md">price 01</h5>
+                    <p class="font">YEAR : $00.00</p>
+                    <p class="font">MONTH : $00.00</p>
+                  </li>
+                  <li>
+                    <h5 class="title-md">price 02</h5>
+                    <p class="font">YEAR : $00.00</p>
+                    <p class="font">MONTH : $00.00</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="containerBox">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="logo image">
+        </a>
+        <div class="footer__info">
+          <h4 class="title-sm">COMPANY NAME</h4>
+          <p class="font"><span>CEO</span>Angie An</p>
+          <p class="font"><span>Address</span>2F, 17, Lorem ipsum dolor sit consectetur.</p>
+          <p class="font"><span>Business License</span>[000-00-00000]</p>
+          <p class="font"><span>CS TIME</span>10:00 ~ 20:00</p>
+        </div>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fas fa-sms"></i></i></a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <span class="font-sm">&copy; Company Name 2021 All rights reserved.</span>
+      </div>
+    </footer>
+    <!-- Arrow up -->
+    <button id="arrow-up">
+      <i class="fa-solid fa-angles-up"></i>
+    </button>
+  </div>
+</body>
+
+</html>

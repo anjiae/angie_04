@@ -1,0 +1,267 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+/* ----------------- Color Scheme -------------------- */
+:root {
+  /* main */
+  --morning-glory: #9CE4DC;
+  --alabaster: #F6FCFC;
+  --light-navy-blue: #22658C;
+  --dark-jungle-green: #112319;
+  
+  /* point */
+  --sky-blue: #17BEE8;
+  --marigold-yellow: #FBE870;
+}
+
+
+/* --------------- Skip to Content ------------------- */
+.skip_to_content {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #000;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  transform: translateY(-100%);
+  z-index: 10000;
+}
+
+.skip_to_content:focus {
+  transform: translateY(0);
+}
+
+/* --------------- Logo & Typography ------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Prompt', sans-serif;
+  color: var(--dark-jungle-green);
+  line-height: 1;
+}
+
+body {
+  width: 100%;
+  background-color: #fff;
+  
+}
+
+/* title div box */
+.title {
+  padding: 12px 0;
+  text-align: center;
+}
+.title-lg {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  font-family: 'Prompt', sans-serif;
+  color: var(--dark-jungle-green);
+  text-transform: uppercase;
+}
+.title-md {
+  font-size: 2.4em;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  font-family: 'Prompt', sans-serif;
+  color: var(--dark-jungle-green);
+  text-transform: uppercase;
+}
+.title-sm {
+  font-size: 1.6em;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  font-family: 'Prompt', sans-serif;
+  color: var(--dark-jungle-green);
+  text-transform: uppercase;
+}
+
+.font {
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+  font-family: 'Prompt', sans-serif;
+  color: var(--dark-jungle-green);
+}
+.font-sm {
+  font-size: 0.85em;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
+  font-family: 'Prompt', sans-serif;
+  color: var(--dark-jungle-green);
+}
+.font a,
+.font-sm a {
+  display: block;
+  font-family: 'Prompt', sans-serif;
+  color: var(--dark-jungle-green);
+}
+.font-handwright {
+  font-family: 'Redressed', cursive;
+}
+/* logo */
+
+/* --------------------- Sns icons ---------------------- */
+.social-icons {
+  display: flex;
+}
+.social-icons li {
+  margin-right: 5px;
+}
+.social-icons li:last-child {
+  margin-right: 0;
+}
+.social-icons li i {
+  color: var(--dark-jungle-green);
+  font-size: 1.1em;
+}
+
+/* -------------- Section & Container box --------------- */
+.section {
+  width: 100%;
+  position: relative;
+}
+.section--bg {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 50%;
+}
+.section--bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+}
+.containerBox {
+  max-width: 1600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.responsive {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 50%;
+}
+.responsive-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.responsive-wrap img,
+.responsive-wrap video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.imageBox {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ----------------- Buttons & Links -------------------- */
+.primary-btn {
+  font-size: 0.85em;
+  font-family: 'Prompt', sans-serif;
+  border: 1px solid var(--light-navy-blue);
+  padding: 8px 15px;
+  border-radius: 12px;
+  transition: all 0.2s;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--dark-jungle-green);
+}
+.primary-btn:hover {
+  background-color: var(--light-navy-blue);
+  color: var(--alabaster);
+}
+
+.secondary-btn {
+  font-size: 0.85em;
+  font-family: 'Prompt', sans-serif;
+  color: var(--alabaster);
+  background-color: var(--sky-blue);
+  padding: 8px 15px;
+  transition: all 0.2s;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.secondary-btn:hover {
+  color: var(--light-navy-blue);
+  background-color: var(--marigold-yellow);
+}
+
+/* -------------- Custom Pagination ------------------ */
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pagination a span {
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  line-height: 1em;
+  font-family: 'Prompt', sans-serif;
+  color: var(--alabaster);
+  margin: 0 12px;
+  background-color: var(--dark-jungle-green);
+  padding: 5px 8px;
+  border-radius: 7px;
+}
+.pagination a:hover span {
+  background-color: var(--light-navy-blue);
+}
+/* --------------- Widget (Sidebar) ------------------ */
+
+/* --------------- Arrow Up Scroll ------------------- */
+#arrow-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  background-color: var(--marigold-yellow);
+  color: var(--alabaster);
+  z-index: 999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#arrow-up.visible {
+  opacity: 1;
+  pointer-events: auto;
+}

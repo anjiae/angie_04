@@ -1,0 +1,995 @@
+/* ---------------------------------------------------------
+-----------------------Page: LOCATION ----------------------
+--------------------------------------------------------- */
+/* Page Location : Intro */
+#p-location {
+  padding-top: 100px;
+}
+#p-location .location__intro .section--bg {
+  background: url(../images/page/location/page-location-bg.jpg) no-repeat center/cover;
+}
+#p-location .location__intro .title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+#p-location .location__intro .title .title-lg {
+  color: var(--alabaster);
+}
+#p-location .location__intro .title .font {
+  color: var(--alabaster);
+  margin-top: 20px;
+  width: 50%;
+}
+
+/* Page Location : Map */ 
+#p-location .location__map {
+  padding: 120px 0;
+}
+#p-location .location__map .title .font-sm {
+  width: 50%;
+  margin: 20px auto 0;
+}
+
+#p-location .location__map .map {
+  position: relative;
+  width: 90%;
+  height: 0;
+  padding-top: 50%;
+  margin: 60px auto;
+}
+#p-location .location__map .map .map--wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#p-location .location__map .map .map--wrapper iframe {
+  width: 100%;
+  height: 100%;
+}
+#p-location .location__map .map__desc {
+  width: 90%;
+  margin: 0 auto;
+}
+#p-location .location__map .map__desc .map__desc__lists li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  border-bottom: solid 1px #dfdfdf;
+  padding: 20px 0;
+}
+#p-location .location__map .map__desc .map__desc__lists li:last-child {
+  margin-bottom: 0;
+}
+#p-location .location__map .map__desc .map__desc__lists li div.font {
+  width: 200px;
+  font-weight: 600;
+  margin-right: 15px;
+  text-align: center;
+}
+#p-location .location__map .map__desc .map__desc__lists li div.font i {
+  margin-left: 5px;
+  color: var(--light-navy-blue);
+}
+#p-location .location__map .map__desc .map__desc__lists li p.font {
+  flex: 1;
+}
+
+/* Page Location : About */
+#p-location .location__about {
+  padding: 0 15px 150px;
+  box-sizing: border-box;
+}
+#p-location .location__about .containerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#p-location .location__about .containerBox .loc__about__desc {
+  width: 40%;
+}
+#p-location .location__about .containerBox .loc__about__desc > .font {
+  margin: 30px 0 50px;
+}
+#p-location .location__about .containerBox .loc__about__desc .sign img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+}
+#p-location .location__about .containerBox .loc__about__desc .sign .font {
+  font-weight: 500;
+  font-style: italic;
+  display: inline-flex;
+  padding-top: 25px;
+  margin-left: 2px;
+}
+#p-location .location__about .containerBox .loc__about__desc .sign .font-sm {
+  margin-top: 12px;
+}
+#p-location .location__about .containerBox .loc__about__img {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#p-location .location__about .containerBox .loc__about__img .imageBox {
+  width: 40%;
+  position: relative;
+  height: 0;
+}
+#p-location .location__about .containerBox .loc__about__img .imageBox.img01 {
+  padding-top: 60%;
+  margin-right: 30px;
+}
+#p-location .location__about .containerBox .loc__about__img .imageBox.img02 {
+  padding-top: 50%;
+}
+#p-location .location__about .containerBox .loc__about__img .imageBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Page Location : Book Spot */
+#p-location .location__book .section--bg {
+  background: url(../images/page/location/location-book.jpg) no-repeat center/cover;
+}
+#p-location .location__book .loc__book__text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+#p-location .location__book .loc__book__text .title .title-lg {
+  color: var(--alabaster);
+}
+#p-location .location__book .loc__book__text .title .font {
+  color: var(--alabaster);
+  margin: 20px 0;
+}
+
+
+/* ---------------------------------------------------------
+-----------------------Page: TEAM --------------------------
+--------------------------------------------------------- */
+/* Page Team : Intro */
+#p-team {
+  padding-top: 100px;
+}
+#p-team .section--bg {
+  background: url(../images/page/crew/crew-bg.jpg) no-repeat center/cover;
+  padding-top: 40%;
+}
+
+/* Page Team : Crew */
+#p-team .team__crew {
+  padding: 120px 10px;
+  box-sizing: border-box;
+}
+#p-team .team__crew .title .font {
+  width: 50%;
+  margin: 20px auto 0;
+}
+#p-team .team__crew .team__crew__lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+#p-team .team__crew .team__crew__lists > li {
+  width: 20%;
+  height: 0;
+  position: relative;
+  padding-top: 30%;
+  margin: 5px;
+  cursor: pointer;
+}
+#p-team .team__crew .team__crew__lists > li .imageBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#p-team .team__crew .team__crew__lists li .imageBox::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: 0.3s;
+}
+#p-team .team__crew .team__crew__lists li:hover .imageBox::before {
+  opacity: 1;
+}
+#p-team .team__crew .team__crew__lists li .imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#p-team .team__crew .team__crew__lists li .hoverBox {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 0;
+  height: 40%;
+  background-color: var(--morning-glory);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+#p-team .team__crew .team__crew__lists li.hover .hoverBox {
+  width: 95%;
+  opacity: 1;
+  pointer-events: auto;
+}
+#p-team .team__crew .team__crew__lists li .hoverBox .font {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+#p-team .team__crew .team__crew__lists li .hoverBox .font-sm {
+  margin: 15px 0;
+}
+
+/* Page Team : Contact us */
+#p-team .team__contact {
+  padding: 50px 30px 100px;
+  width: 60%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+#p-team .team__contact .btnBox .primary-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  font-size: 1.2em;
+}
+
+/* ---------------------------------------------------------
+-----------------------Page: About -------------------------
+--------------------------------------------------------- */
+/* Page About : Intro */
+#p-about {
+  padding-top: 100px;
+}
+#p-about .about__intro .section--bg {
+  background: url(../images/page/about/about-bg.jpg) no-repeat center/cover;
+}
+#p-about .about__intro .title {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+
+#p-about .about__intro .title .title-lg {
+  color: var(--alabaster);
+}
+#p-about .about__intro .title .font {
+  color: var(--alabaster);
+  margin-top: 20px;
+  width: 50%;
+}
+
+/* Page About : history */
+#p-about .about__history {
+  padding: 150px 0;
+}
+#p-about .about__history .font {
+  width: 70%;
+  margin: 20px auto 0;
+}
+#p-about .about__history .galleries {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#p-about .about__history .galleries li {
+  width: 33%;
+  height: 0;
+  padding-top: 35%;
+  position: relative;
+}
+#p-about .about__history .galleries li .imageBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#p-about .about__history .galleries li .imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Page About us : School  */
+#p-about .about__school {
+  padding: 30px 0 150px;
+}
+#p-about .about__school .containerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+}
+#p-about .about__school .containerBox .textBox {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+#p-about .about__school .containerBox .textBox .font {
+  margin: 25px 0 50px;
+}
+#p-about .about__school .containerBox ul {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#p-about .about__school .containerBox ul li {
+  width: 50%;
+  padding-top: 60%;
+  position: relative;
+  overflow: hidden;
+}
+#p-about .about__school .containerBox ul li .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+#p-about .about__school .containerBox ul li .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Page About us : Testimonial */
+#p-about .about__testimonial {
+  background-color: var(--alabaster);
+  padding: 120px 0;
+}
+#p-about .about__testimonial .containerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#p-about .about__testimonial .containerBox .title {
+  margin-bottom: -50px;
+}
+#p-about .about__testimonial .containerBox .swiper .testimo__lists {
+  height: 450px;
+}
+#p-about .about__testimonial .containerBox .swiper .testimo__lists .testimo__slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#p-about .about__testimonial .containerBox .swiper .testimo__lists .testimo__slide .font {
+  width: 80%;
+  font-style: italic;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#p-about .about__testimonial .containerBox .swiper .testimo__lists .testimo__slide span {
+  display: block;
+  font-style: italic;
+}
+#p-about .about__testimonial .containerBox .swiper .arrowBox {
+  position: absolute;
+  top: 35%;
+  right: 10px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+#p-about .about__testimonial .containerBox .swiper .arrowBox .arrowBtn {
+  font-size: 2em;
+  font-weight: 400;
+  color: var(--light-navy-blue);
+  transition: all 0.3s;
+}
+#p-about .about__testimonial .containerBox .swiper .arrowBox .arrowBtn:hover,
+#p-about .about__testimonial .containerBox .swiper .arrowBox .arrowBtn:active,
+#p-about .about__testimonial .containerBox .swiper .arrowBox .arrowBtn:focus {
+  transform: scale(1.2);
+  color: var(--morning-glory);
+}
+/* Page About us : Link to team */
+#p-about .about__link .section--bg {
+  background: url(../images/page/about/linkbg.jpg) no-repeat center/cover;
+}
+#p-about .about__link .section--bg .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#p-about .about__link .section--bg .title .title-lg {
+  color: var(--alabaster);
+  margin-bottom: 50px;
+}
+
+/* ---------------------------------------------------------
+--------------------Page: LESSON -------------------------
+--------------------------------------------------------- */
+/* Page Lesson : Intro */
+#p-lesson {
+  padding-top: 100px;
+}
+#p-lesson .lesson__intro .section--bg {
+  background: url(../images/page/lesson/lesson-bg.jpg) no-repeat center/cover;
+}
+#p-lesson .lesson__intro .section--bg .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
+  text-align: left;
+}
+#p-lesson .lesson__intro .section--bg .title .title-lg {
+  color: var(--alabaster);
+}
+#p-lesson .lesson__intro .section--bg .title .font {
+  width: 50%;
+  color: var(--alabaster);
+  margin-top: 20px;
+}
+
+/* Page Lesson : Category - mansonry grid */
+#p-lesson .lesson__cat {
+  padding: 120px 0;
+}
+#p-lesson .lesson__cat .title {
+  margin-bottom: 50px;
+}
+#p-lesson .lesson__cat .title .font-sm {
+  width: 65%;
+  margin: 20px auto 0;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid {
+  width: 31%;
+  margin: 2em 1%;
+  position: relative;
+  background-color: #000;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid::after {
+  content: attr(data-cat);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2em;
+  font-weight: 600;
+  color: var(--alabaster);
+  font-family: 'Redressed', cursive;
+  letter-spacing: 0.1em;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid .imageBox {
+  transition: all 0.3s;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid.hover .imageBox {
+  opacity: 0.7;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid .textBox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+  background-color: #fff;
+  padding: 20px 10px;
+  text-align: center;
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid.hover .textBox {
+  opacity: 1;
+  height: 50%;
+  pointer-events: auto;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid .textBox .title-sm {
+  font-size: 1.2em;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid .textBox .font-sm {
+  margin: 10px 0;
+}
+#p-lesson .lesson__cat .cat__lists .cat-grid.hover .textBox button {
+  margin: 0 auto;
+  font-size: 0.75em;
+  padding: 2px 8px;
+}
+
+/* Page Lesson : Partnership */
+#p-lesson .lesson__ptnship {
+  background-color: var(--sky-blue);
+  padding: 10px 0;
+}
+#p-lesson .lesson__ptnship .partner__lists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#p-lesson .lesson__ptnship .partner__lists li {
+  width: 100px;
+  height: 100px;
+}
+#p-lesson .lesson__ptnship .partner__lists li .imageBox {
+  width: 100%;
+  height: 100%;
+}
+#p-lesson .lesson__ptnship .partner__lists li .imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Page Lesson : Learn */
+#p-lesson .lesson__learn {
+  padding: 120px 0;
+}
+#p-lesson .lesson__learn .title .font {
+  width: 60%;
+  margin: 20px auto 0;
+}
+#p-lesson .lesson__learn .learn__lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+#p-lesson .lesson__learn .learn__lists li {
+  width: 20%;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#p-lesson .lesson__learn .learn__lists li .imageBox {
+  width: 50px;
+  height: 50px;
+}
+#p-lesson .lesson__learn .learn__lists li .imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#p-lesson .lesson__learn .learn__lists li .textBox {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  margin-top: 30px;
+}
+#p-lesson .lesson__learn .learn__lists li .textBox .font {
+  width: 100%;
+  height: 20%;
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* Page Lesson : Special price */
+#p-lesson .lesson__spcprice .section--bg {
+  background: url(../images/page/lesson/spc-bg.jpg) no-repeat center/cover;
+}
+#p-lesson .lesson__spcprice .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#p-lesson .lesson__spcprice .title h3 {
+  color: var(--alabaster);
+  margin-bottom: 20px;
+}
+#p-lesson .lesson__spcprice .title h4 {
+  color: var(--alabaster);
+}
+#p-lesson .lesson__spcprice .title a {
+  color: var(--alabaster);
+  margin-top: 20px;
+  border-color: var(--alabaster);
+}
+#p-lesson .lesson__spcprice .title a:hover {
+  background-color: var(--alabaster);
+  color: var(--light-navy-blue);
+}
+
+
+/* ---------------------------------------------------------
+--------------------Page: RENTAL ---------------------------
+--------------------------------------------------------- */
+/* Page rental : Intro */
+#p-rental {
+  padding-top: 100px;
+}
+#p-rental .rental__intro .section--bg {
+  background: url(../images/page/rental/rental-bg.jpg) no-repeat center/cover;
+}
+#p-rental .rental__intro .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#p-rental .rental__intro .title .title-lg {
+  color: var(--alabaster);
+}
+#p-rental .rental__intro .title .font {
+  color: var(--alabaster);
+  width: 80%;
+  margin-top: 20px;
+}
+
+/* Page rental : board lists price */
+#p-rental .rental__boards {
+  padding: 120px 0;
+}
+#p-rental .rental__boards .board__lists > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+#p-rental .rental__boards .board__lists > li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+#p-rental .rental__boards .board__lists > li .imageBox {
+  width: 45%;
+  height: 0;
+  padding-top: 50%;
+  position: relative;
+}
+#p-rental .rental__boards .board__lists > li .imageBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#p-rental .rental__boards .board__lists > li .description {
+  width: 55%;
+  position: relative;
+}
+#p-rental .rental__boards .board__lists > li .description .title-md {
+  margin-bottom: 20px;
+}
+#p-rental .rental__boards .board__lists > li .description .font {
+  margin-top: 20px;
+}
+#p-rental .rental__boards .board__lists > li .description ul {
+  margin-top: 30px;
+}
+#p-rental .rental__boards .board__lists > li .description ul li i {
+  margin-right: 5px;
+  font-size: 0.8em;
+}
+
+/* Page rental : long term special price */
+#p-rental .rental__longterm .section--bg {
+  background: url(../images/page/rental/rental-spc.jpg) no-repeat center/cover;
+}
+#p-rental .rental__longterm .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+#p-rental .rental__longterm .title .title-lg {
+  color: var(--alabaster);
+  margin-bottom: 30px;
+}
+#p-rental .rental__longterm .title ul li {
+  margin-bottom: 20px;
+}
+#p-rental .rental__longterm .title ul li h5,
+#p-rental .rental__longterm .title ul li p {
+  color: var(--alabaster);
+}
+
+
+
+/* ---------------------------------------------------------
+--------------------Page: CAFE&BAR --------------------------
+--------------------------------------------------------- */
+/* Intro */
+#p-cafe {
+  padding-top: 100px;
+}
+#p-cafe .cafe__intro {
+  background: url(../images/page/cafebar/cafe-bg.jpg) no-repeat center/cover;
+}
+#p-cafe .cafe__intro::before {
+  background-color: transparent;
+}
+
+/* Descirpiton */
+#p-cafe .cafe__desc {
+  padding: 120px 0;
+}
+#p-cafe .cafe__desc .title .font {
+  width: 60%;
+  margin: 20px auto 0;
+}
+#p-cafe .cafe__desc .galleries {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#p-cafe .cafe__desc .galleries li {
+  width: 30%;
+  margin: 5px;
+  height: 0;
+  padding-top: 35%;
+  position: relative;
+}
+#p-cafe .cafe__desc .galleries li .imageBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Menu */
+#p-cafe .cafe__menu {
+  padding: 80px 0;
+}
+#p-cafe .cafe__menu .menu-title .font-sm {
+  width: 60%;
+  margin: 20px auto 0;
+}
+#p-cafe .cafe__menu .menubox .imageBox {
+  width: 150px;
+  height: 150px;
+  margin: 80px auto 50px;
+}
+#p-cafe .cafe__menu .menubox .imageBox img {
+  width: 100%;
+  height: 100%;
+}
+#p-cafe .cafe__menu .menubox .menu__lists hr {
+  width: 400px;
+  border-bottom: 3px solid rgba(0,0,0,0.3);
+}
+#p-cafe .cafe__menu .menubox .menu__lists ul {
+  width: 50%;
+  margin: 30px auto 50px;
+}
+#p-cafe .cafe__menu .menubox .menu__lists ul .s-cat {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+#p-cafe .cafe__menu .menubox .menu__lists ul li {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#p-cafe .cafe__menu .menubox .menu__lists ul li:last-child {
+  margin-bottom: 0;
+}
+
+#p-cafe .cafe__menu .menubox .menu__lists ul li .s-menu {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+#p-cafe .cafe__menu .menubox .menu__lists ul li .s-menu p.font {
+  font-weight: 600;
+}
+#p-cafe .cafe__menu .menubox .menu__lists ul li .s-menu span.font {
+  font-family: 'Redressed', cursive;
+}
+
+#p-cafe .cafe__menu .menubox .menu__lists .notice {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* event coupon download */
+#p-cafe .cafe__event .section--bg {
+  background: url(../images/page/cafebar/coupon.jpg) no-repeat center/cover;
+}
+#p-cafe .cafe__event .title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#p-cafe .cafe__event .title h2,
+#p-cafe .cafe__event .title p {
+  color: var(--alabaster)
+}
+
+#p-cafe .cafe__event .title p {
+  margin: 25px 0;
+  width: 70%;
+}
+
+
+/* ---------------------------------------------------------
+--------------------Page: CONTACT --------------------------
+--------------------------------------------------------- */
+#p-contact {
+  padding: 250px 0 150px;
+  box-sizing: border-box;
+}
+#p-contact .containerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#p-contact .containerBox .contact__bg {
+  width: 45%;
+  height: 0;
+  padding-top: 60%;
+  position: relative;
+}
+#p-contact .containerBox .contact__bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#p-contact .containerBox .contact__form {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+#p-contact .containerBox .contact__form .font-sm {
+  margin-top: 20px;
+}
+
+#p-contact .containerBox .contact__form form {
+  width: 100%;
+  margin-top: 50px;
+}
+#p-contact .containerBox .contact__form form p.field input {
+  height: 30px;
+}
+#p-contact .containerBox .contact__form form p.field input,
+#p-contact .containerBox .contact__form form p.field textarea {
+  width: 100%;
+  border-bottom: 1px solid var(--dark-jungle-green);
+  margin-bottom: 15px;
+}
+#p-contact .containerBox .contact__form form p.field input::placeholder,
+#p-contact .containerBox .contact__form form p.field textarea::placeholder {
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  font-family: 'Prompt', sans-serif;
+  color: var(--light-navy-blue);
+}
+#p-contact .containerBox .contact__form form textarea {
+  resize: none;
+}
+#p-contact .containerBox .contact__form form p.submit input[type="submit"] {
+  color: var(--light-navy-blue);
+  padding: 10px 20px;
+  border: 1px solid var(--dark-jungle-green);
+  transition: 0.3s;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Prompt', sans-serif;
+  letter-spacing: 0.05em;
+  margin-top: 50px;
+}
+
+#p-contact .containerBox .contact__form form p.submit:hover input[type="submit"] {
+  color: var(--alabaster);
+  background-color: var(--light-navy-blue);
+}

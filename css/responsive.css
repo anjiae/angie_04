@@ -1,0 +1,245 @@
+@media all and (max-width: 1024px) {
+/* ---------------------------------------------------------------
+------------------ MAIN.CSS---------------------------------------
+---------------------------------------------------------------- */
+/* Main : Intro */
+#intro .section--bg {
+  padding-top: 55%;
+}
+
+/* Main : Lesson */
+#lesson .lesson__lists li {
+  width: 50%;
+  padding-top: 50%;
+}
+
+/* Main : Facility */
+#facility .facility__desc .font-sm {
+  max-width: 80%;
+}
+#facility .facility__lists li {
+  width: 30%;
+  padding-top: 30%;
+}
+
+/* Main : Recommend Event */
+#r_event .section--bg {
+  padding-top: 45%;
+}
+
+/* ---------------------------------------------------------------
+------------------ SINGLE.CSS-------------------------------------
+---------------------------------------------------------------- */
+/* ---------- Single Lesson ----------------
+---------------------------------------- */
+/* informations */
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent {
+  flex-direction: column;
+  margin-top: 80px;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .videoBox {
+  width: 100%;
+  padding-top: 60%;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .priceinfo {
+  width: 100%;
+  padding-left: 0;
+  margin-top: 30px;
+}
+
+}
+
+
+
+
+/* 768 */
+@media all and (max-width: 768px){
+/* ---------------------------------------------------------------
+------------------COMMON.CSS--------------------------------------
+---------------------------------------------------------------- */
+/* title div box */
+.title-lg {
+  font-size: 2.7em;
+}
+.title-md {
+  font-size: 2.1em;
+}
+.title-sm {
+  font-size: 1.3em;
+}
+
+#arrow-up {
+  bottom: 30px;
+  right: 30px;
+  width: 45px;
+  height: 45px;
+  font-size: 25px;
+}
+/* ---------------------------------------------------------------
+------------------ MAIN.CSS---------------------------------------
+---------------------------------------------------------------- */
+/* HEADER : toggleBox */
+#header .containerBox .nav,
+#header .containerBox .aside {
+  display: none;
+}
+#header .containerBox .toggleBox {
+  display: block;
+}
+
+/* Main : Intro */
+#intro .section--bg {
+  padding-top: 65%;
+}
+/* Main :  ABOUT */
+#about .aboutBox {
+  flex-direction: column;
+  padding: 120px 0;
+}
+#about .aboutBox .videoBox {
+  width: 85%;
+  padding-top: 55%;
+  margin-right: 0;
+  margin-bottom: 50px;
+}
+#about .aboutBox .textBox {
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main : Facility */
+#facility .facility__desc .font-sm {
+  max-width: 95%;
+}
+#facility .facility__lists li {
+  width: 45%;
+  padding-top: 45%;
+}
+
+/* Main : team */
+#team .teamBox {
+  flex-direction: column;
+}
+#team .teamBox .textBox {
+  width: 95%;
+  margin-right: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#team .teamBox .imageBox {
+  width: 100%;
+  padding-top: 75%;
+}
+
+/* Main : Recommend Event */
+#r_event .section--bg {
+  padding-top: 60%;
+}
+
+/* ---------------------------------------------------------------
+------------------ SINGLE.CSS-------------------------------------
+---------------------------------------------------------------- */
+/* ---------- Single Lesson ----------------
+---------------------------------------- */
+/* Intro */
+#s-lesson .s_lesson__intro .containerBox {
+  flex-direction: column;
+  justify-content: center;
+}
+#s-lesson .s_lesson__intro .containerBox .title-lg {
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* informations */
+#s-lesson .s_lesson__info .containerBox {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+#s-lesson .s_lesson__info .containerBox .guides {
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+}
+#s-lesson .s_lesson__info .containerBox .guides .title {
+  text-align: center;
+}
+#s-lesson .s_lesson__info .containerBox .contents {
+  width: 100%;
+}
+}
+
+
+
+
+
+
+/* 540 */
+@media all and (max-width:540px)  {
+/* ---------------------------------------------------------------
+------------------COMMON.CSS--------------------------------------
+---------------------------------------------------------------- */
+/* title div box */
+.title-lg {
+  font-size: 2.2em;
+}
+.title-md {
+  font-size: 1.5em;
+}
+
+.desc-font {
+  font-size: 0.9em;
+}
+.desc-font-sm {
+  font-size: 0.8em;
+}
+#arrow-up {
+  bottom: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+}
+/* ---------------------------------------------------------------
+------------------ MAIN.CSS---------------------------------------
+---------------------------------------------------------------- */
+/* Main : Intro */
+#intro .section--bg {
+  padding-top: 0;
+  height: 80vh;
+}
+
+/* Main : Lesson */
+#lesson .lesson__lists li {
+  width: 100%;
+  padding-top: 75%;
+}
+
+/* Main : Facility */
+#facility .facility__lists li {
+  width: 90%;
+  padding-top: 70%;
+}
+
+/* Main : Recommend Event */
+#r_event .section--bg {
+  padding-top: 80vh;
+}
+#r_event .section--bg .event__desc .title-lg {
+  font-size: 2.2em;
+}
+
+/* Footer */
+#footer .containerBox {
+  text-align: center;
+  flex-direction: column;
+}
+#footer .logo {
+  margin-right: 0;
+}
+#footer .social-icons {
+  justify-content: center;
+}
+
+}

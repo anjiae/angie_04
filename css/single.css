@@ -1,0 +1,154 @@
+/* ---------------------------------------------------------
+--------------------Single: Lesson Type -------------------------
+--------------------------------------------------------- */
+/* Intro */
+#s-lesson {
+  padding-top: 100px;
+}
+#s-lesson .s_lesson__intro {
+  background-color: var(--sky-blue);
+}
+#s-lesson .s_lesson__intro .containerBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+#s-lesson .s_lesson__intro .containerBox .title-lg {
+  color: var(--alabaster);
+}
+#s-lesson .s_lesson__intro .containerBox .coordinates {
+  display: flex;
+}
+#s-lesson .s_lesson__intro .containerBox .coordinates li {
+  margin: 0 2px;
+}
+#s-lesson .s_lesson__intro .containerBox .coordinates li a {
+  color: var(--alabaster);
+}
+
+/* informations */
+#s-lesson .s_lesson__info {
+  padding: 120px 0;
+}
+#s-lesson .s_lesson__info .containerBox {
+  display: flex;
+  justify-content: center;
+}
+#s-lesson .s_lesson__info .containerBox .guides {
+  width: 30%;
+}
+#s-lesson .s_lesson__info .containerBox .guides .title {
+  text-align: left;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+#s-lesson .s_lesson__info .containerBox .guides .guide__lists li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 15px;
+}
+#s-lesson .s_lesson__info .containerBox .guides .guide__lists li::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 7px;
+  height: 7px;
+  background-color: var(--sky-blue);
+  border-radius: 50%;
+  opacity: 0;
+}
+#s-lesson .s_lesson__info .containerBox .guides .guide__lists li:hover a,
+#s-lesson .s_lesson__info .containerBox .guides .guide__lists li.clicked a{
+  color: var(--sky-blue);
+}
+#s-lesson .s_lesson__info .containerBox .guides .guide__lists li:hover::before,
+#s-lesson .s_lesson__info .containerBox .guides .guide__lists li.clicked::before {
+  opacity: 1;
+}
+#s-lesson .s_lesson__info .containerBox .contents {
+  width: 70%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#s-lesson .s_lesson__info .containerBox .contents .imgcontent .imageBox {
+  width: 100%;
+  height: 0;
+  padding-top: 60%;
+  position: relative;
+  margin-bottom: 30px;
+}
+#s-lesson .s_lesson__info .containerBox .contents .imgcontent .imageBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#s-lesson .s_lesson__info .containerBox .contents .imgcontent .textBox .font {
+  margin-top: 20px;
+}
+#s-lesson .s_lesson__info .containerBox .contents .imgcontent .progressinfo {
+  margin: 30px 0;
+}
+#s-lesson .s_lesson__info .containerBox .contents .imgcontent .progressinfo ul li {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+#s-lesson .s_lesson__info .containerBox .contents .imgcontent .progressinfo ul li span i {
+  font-size: 0.75em;
+  margin-right: 5px;
+}
+
+
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .videoBox {
+  width: 50%;
+  height: 0;
+  padding-top: 35%;
+  position: relative;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .videoBox video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .priceinfo {
+  width: 50%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .priceinfo > .font {
+  margin: 15px 0 20px;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .priceinfo .info__lists li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgb(0,0,0,0.1);
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .priceinfo .info__lists li:last-child {
+  margin-bottom: 0;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .priceinfo .info__lists li p.font {
+  width: 50%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#s-lesson .s_lesson__info .containerBox .contents .pricecontent .priceinfo a {
+  margin-top: 25px;
+  display: inline-block;
+}
